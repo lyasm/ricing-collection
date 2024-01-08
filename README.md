@@ -1,2 +1,11 @@
 **Walls:**
-[[https://ai-photo-sorter.vercel.app]] used for sorting
+
+Lots of Wallpapers here most are from wallhaven, /wg or unixporn
+
+
+
+
+
+
+
+

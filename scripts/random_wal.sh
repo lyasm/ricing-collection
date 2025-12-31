@@ -13,10 +13,7 @@ initialize_wall_list() {
 if [[ $1 == "--init" ]]; then
     initialize_wall_list
 else
-    # Delete the first line of the .wall-list file
     sed -i 1d "$wall_list"
-    # Get the new first line from the file
-    # Loop until a suitable image is found
     while true; do
 
     rand_img=$(head -n 1 "$wall_list")
@@ -25,7 +22,6 @@ else
 #    lutgen a -p oxocarbon-dark -s 10 -P  $rand_img -o
     lutgen a -p rose-pine -S -n 10 -P -p 7 -l=8  $rand_img -o /home/paul/ricing-collection/scripts/curr_img.png
     swww img  /home/paul/ricing-collection/scripts/curr_img.png --transition-step 50 --transition-fps 244 --transition-duration 2 -t wipe
-    wal -i /home/paul/ricing-collection/scripts/curr_img.png
 
 	    break
     done

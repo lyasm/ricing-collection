@@ -21,7 +21,7 @@ else
 #    lutgen a -p oxocarbon-dark $rand_img -o /home/paul/ricing-collection/scripts/curr_img.png
 #    lutgen a -p oxocarbon-dark -s 10 -P  $rand_img -o
     lutgen a -p rose-pine -S -n 10 -P -p 7 -l=8  $rand_img -o /home/paul/ricing-collection/scripts/curr_img.png
-    swww img  /home/paul/ricing-collection/scripts/curr_img.png --transition-step 50 --transition-fps 244 --transition-duration 2 -t wipe
+    awww img  /home/paul/ricing-collection/scripts/curr_img.png --transition-step 50 --transition-fps 244 --transition-duration 2 -t wipe
 
 	    break
     done
